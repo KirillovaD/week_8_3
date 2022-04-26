@@ -20,32 +20,28 @@
     margin-top: 50px;
 }
 
-
-
 .btn {
     width: 115px;
     height: 38px;
 
     background: #5222D0;
     border-radius: 100px;
+    border-color: #5222D0;
 
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     color: #FFFFFF;
     
-
 }
 .header__btn{
     font-size: 13px;
 line-height: 13px;
 
-
 }
 .img__header__btn__basket {
     padding-left: 5px;
 }
-
 
 .main {
     display: grid;
@@ -57,7 +53,6 @@ line-height: 13px;
     
 }
 
-
 .main__img {
     grid-column-start: 2;
     grid-row-start: 1;
@@ -66,13 +61,10 @@ line-height: 13px;
 }
 .main__btn_big {
     width: 270px;
-height: 84px;
-padding-right: 16px;
-
-font-size: 35px;
-
-line-height: 35px; }
-
+    height: 84px;
+    padding-right: 16px;
+    font-size: 35px;
+    line-height: 35px; }
 
 
 .btn__img-card {
@@ -80,36 +72,109 @@ line-height: 35px; }
 }
 .menu__link {
     margin-right: 34px;
+    text-decoration: none;
 }
     
-    
-
-   
 h1 {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 120%;
+    color: #000000;
+
+}
+
+h2 {
     font-family: 'Roboto Slab', serif;
 font-style: normal;
 font-weight: 400;
-font-size: 60px;
+font-size: 30px;
 line-height: 120%;
 color: #000000;
 
 }
+
 p, a {
     font-family: 'Roboto Slab';
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
     
 }
+
 p{
     color: #000000;
 }
-a {
+a .menu__link{
     text-decoration: none;
     color: #5222D0;
 
 }
-.btn {
-   
 
+.opportinities__h1 {
+    margin-left: 125px;
+    margin-top: 89px;
+
+}
+.opportinities__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 125px;
+    margin-right: 72px;
+    margin-top: 40px;
+    column-gap: 70px;
+    row-gap: 50px;
+
+}
+.opportunities__item__text {
+    width:365px;
+}
+.opportunities__form {
+    width: 365px;
+    height: 233px;
+
+    background-color: #EC615B; ;
+}
+.opportunities__item__header_white {
+    margin-left: 18px;  
+
+    color: #FFFFFF;
+    
+}
+.opportunities__form__input{
+    width: 310px;
+    height: 50px;
+    margin-left: 18px;
+
+    background-color: #FFFFFF;
+    border-color: white;
+
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 14px;
+
+}
+
+.opportunities__form__btn {
+    margin-top: 23px;
+    margin-left: 18px;
+    
+}
+.menu__vr-main {
+    width: 532px;
+    margin-left: 126px;
+    margin-top: 114px;
+}
+.menu__vr-main__link_black {
+    margin-right: 32px;
+    color: #000000;
+    text-decoration: none;
+    
+}
+.menu__vr-main {
+    margin-left: 126px;
+    margin-top: 114px;
 }
